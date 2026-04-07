@@ -1,16 +1,65 @@
-# React + Vite
+# 🌐 OpenRepo Frontend Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**GitHub About:**
+Web-based interface for OpenRepo platform. Responsive React app with authentication, repository management, and analytics dashboard. Companion web platform to the Electron desktop app.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📋 Overview
 
-## React Compiler
+OpenRepo Frontend Web is the **web-based companion** to the desktop application, providing cloud-accessible features for repository management, analytics, and team collaboration.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✨ Features
+- 📊 Analytics Dashboard - Repository metrics  
+- 🔐 User Management - Profile & settings
+- 📁 Repo Management - Create, import repos
+- 🤖 ML Insights - Predictions, recommendations
+- 👥 Team Collaboration - Share insights
+- 📱 Responsive - Desktop, tablet, mobile
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🏗️ Structure
+
+```
+frontend-web/
+├── vite.config.js        # Build config
+├── package.json          # Dependencies
+├── public/               # Static assets
+├── index.html            # Entry
+│
+└── src/
+    ├── main.jsx          # React entry
+    ├── App.jsx           # Router
+    ├── assets/           # Images
+    ├── components/       # Components
+    │   ├── Header.jsx
+    │   └── Footer.jsx
+    └── pages/
+        ├── Home/         # Landing
+        ├── Auth/         # Login
+        ├── About/        # About
+        └── Demo/         # Demo
+```
+
+---
+
+## 🚀 Quick Start
+
+```bash
+cd frontend-web
+npm install
+npm run dev      # Dev server
+npm run build    # Production
+```
+
+---
+
+## 🛠️ Tech Stack
+- React 19, Vite, Tailwind CSS
+- Framer Motion, Lucide React
+
+---
+
+## 📄 License
+Private - OpenRepo Platform
