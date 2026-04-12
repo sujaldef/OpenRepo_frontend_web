@@ -10,7 +10,8 @@ Web-based interface for OpenRepo platform. Responsive React app with authenticat
 OpenRepo Frontend Web is the **web-based companion** to the desktop application, providing cloud-accessible features for repository management, analytics, and team collaboration.
 
 ### ✨ Features
-- 📊 Analytics Dashboard - Repository metrics  
+
+- 📊 Analytics Dashboard - Repository metrics
 - 🔐 User Management - Profile & settings
 - 📁 Repo Management - Create, import repos
 - 🤖 ML Insights - Predictions, recommendations
@@ -56,10 +57,12 @@ npm run build    # Production
 ---
 
 ## 🛠️ Tech Stack
+
 - React 19, Vite, Tailwind CSS
 - Framer Motion, Lucide React
 
 ---
 
 ## 📄 License
+
 Private - OpenRepo Platform
