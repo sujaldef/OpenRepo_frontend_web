@@ -1,12 +1,12 @@
 // src/App.jsx
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
-import MainLayout from "./layouts/MainLayout"
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import MainLayout from './layouts/MainLayout';
 
 // Public Pages
-import Home from "./pages/Home"
-import Demo from "./pages/Demo"
-import About from "./pages/About/Index" // Assuming folder structure is pages/About/Index.jsx
-import Auth from "./pages/Auth/Index"   // Assuming folder structure is pages/Auth/Index.jsx
+import Home from './pages/Home/Index';
+import Demo from './pages/Demo/Index';
+import About from './pages/About/Index';
+import Auth from './pages/Auth/Index';
 
 // Dashboard Shell
 
@@ -24,9 +24,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/auth" element={<Auth />} />
         </Route>
-          
-       
       </Routes>
     </BrowserRouter>
-  )
+  );
 }

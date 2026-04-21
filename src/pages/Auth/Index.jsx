@@ -14,6 +14,7 @@ import {
   Database,
   Search,
   Box,
+  BrainCircuit,
 } from 'lucide-react';
 
 export default function WindowsDownloadPage() {
